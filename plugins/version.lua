@@ -7,7 +7,13 @@ return {
   patterns = {
     "^[#!/](version)$",
     "^[#!/](bot)$",
-    "^[#!/](selfbot)$"
+    "^[#!/](selfbot)$",
+    "^version$",
+    "^bot$",
+    "^selfbot$"
+    "^Version$",
+    "^Bot$",
+    "^Selfbot$"     
   },
   run = run
 }
